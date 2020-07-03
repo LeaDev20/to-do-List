@@ -6,6 +6,16 @@
     width: 100%;
 }
 
+.body {
+    background-image: url(./images/fondoRasta.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body__main-div{
+    height: 150px;
+}
+
 .titulo {
     text-align: center;
     font-family: Georgia, Times, 'Times New Roman', serif;
