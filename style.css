@@ -2,7 +2,13 @@
     width: 100%;
 }
 
-#body--boton {
+.error {
+    border: solid #D32F2F;
+    border-radius: 6px;
+	color: red;
+}
+
+#body__boton--agregar {
     width: 100%;
 }
 

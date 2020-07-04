@@ -16,25 +16,26 @@
       </nav>      
     </header>
     <div class="container-fluid">
-      <div class="body__main-div">
-        <h1 class="titulo">To Do List</h1>
-        <form>
-          <div class="form-row">
-            <div class="col-10">
-              <input id="body--input" type="text" class="form-control" placeholder="Descripción">
+      <div class="body__page-size">
+        <div class="body__main-div">
+          <h1 class="titulo">To Do List</h1>
+          <form>
+            <div class="form-row">
+              <div class="col-10">
+                <input id="body--input" type="text" class="form-control" placeholder="Descripción">
+              </div>
+              <div class="col-2">
+                <input id="body__boton--agregar" type="button" class="btn btn-outline-success" value="Agregar" onclick="agregarTarea()">
+              </div>
             </div>
-            <div class="col-2">
-              <button id="body--boton" type="submit" class="btn btn-outline-success">Agregar</button>
-            </div>
-          </div>
-        </form>
-      </div>    
-      <div class="row">
+          </form>
+        </div>    
+        <div class="row">
           <div class="col-md-12">
-              <ul id="lista">
-                    
+              <ul id="lista">        
               </ul>
           </div>
+        </div>
       </div>
     </div>
     <footer class="fixed-bottom">
