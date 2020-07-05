@@ -13,6 +13,8 @@ function agregarTarea(){
         input.setAttribute("placeholder", "No pusiste nada")
         input.className = "error";
         lista.remove(nuevaTarea);
+    } else {
+        input.className = "";
     }
     nuevaTarea.appendChild(contenido);
     lista.appendChild(nuevaTarea);
@@ -21,3 +23,4 @@ function agregarTarea(){
         lista.children[i].addEventListener("click", lista.children[i].remove);
     } 
 }
+
